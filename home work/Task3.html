@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+         body{
+            background-color: #23b9be;
+            margin: 0;
+            padding: 0;
+            overflow-x: none;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns:repeat(6, 300px);
+            font-family: Arial, Helvetica, sans-serif;
+            grid-gap: 0 10px;
+            align-items: start;
+            margin-top: 70px;
+            margin-left: 15px;
+            overflow-y:none;
+            overflow-x: scroll;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        header{
+            background-color: rgb(24, 78, 85);
+            height: 50px;
+            margin-bottom: 20px;
+            position: fixed;
+            width: 100%;
+            margin: -4.4em 0em 0em 0em;
+        }
+
+        .items{
+            background-color: rgb(211, 204, 204);
+            border-radius: 5px;
+            height: 650px;
+        }
+
+        .nameOfBoard{
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        .bl-scroll{    
+            width: 300px;
+            max-height:650px; 
+            display: inline-block;
+            overflow-x: hidden;     
+            margin: 0 -3px;
+            padding-top: 1px;
+        }
+
+        .content p{
+           padding: 10px;
+           font-size: 13px;
+        }
+
+        .info{
+            display: flex;
+        }
+
+        img{
+            width: 20px;
+            height: 20px;
+        }
+
+        .info p{
+            margin: 0;
+            padding: 0;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-top: 13px;
+        }
+
+        .personImg{
+            margin-left: auto;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            margin-bottom: 5px;
+        }
+
+        .MenuImg{
+            margin: 10px;
+        }
+
+        .myBoard{
+            padding-left: 10px;
+            margin-top: 0;
+            padding-top: 10px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .content{
+            background-color: white;  
+            margin: 0px 10px;
+            border-radius: 5px;
+        }
+
+        
+
+      
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="myBoard">MY BOARDS</h2>
+    </header>
+     <div class="grid">
+        <div class="items bl-scroll">
+            <p class="nameOfBoard">To Do</p>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="personImg" src="avatar_1.png" alt="">              
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="MenuImg" src="comments_26.png" alt="">
+                    <p>4</p>
+                    <img class="personImg" src="avatar_1.png" alt="">              
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="personImg" src="avatar_1.png" alt="">             
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="MenuImg" src="comments_26.png" alt="">
+                    <p>4</p>
+                    <img class="personImg" src="avatar_1.png" alt="">              
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="MenuImg" src="comments_26.png" alt="">
+                    <p>4</p>
+                    <img class="personImg" src="avatar_2.png" alt="">                  
+                </div>
+            </div>
+        </div>
+        <div class="items bl-scroll">
+            <p class="nameOfBoard">In Progres</p>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="personImg" src="avatar_1.png" alt="">                
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="MenuImg" src="comments_26.png" alt="">
+                    <p>4</p>
+                    <img class="personImg" src="avatar_3.png" alt="">                
+                </div>
+            </div>
+        </div>
+        <div class="items bl-scroll">
+            <p class="nameOfBoard">Test</p>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="MenuImg" src="comments_26.png" alt="">
+                    <p>4</p>
+                    <img class="personImg" src="avatar_1.png" alt="">                 
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="personImg" src="avatar_3.png" alt="">                
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="MenuImg" src="comments_26.png" alt="">
+                    <p>4</p>
+                    <img class="personImg" src="avatar_1.png" alt="">               
+                </div>
+            </div>
+        </div>
+        <div class="items bl-scroll">
+            <p class="nameOfBoard">Fix</p>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="personImg" src="avatar_2.png" alt="">              
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="MenuImg" src="comments_26.png" alt="">
+                    <p>4</p>
+                    <img class="personImg" src="avatar_2.png" alt="">                  
+                </div>
+            </div>
+        </div>
+        <div class="items bl-scroll">
+            <p class="nameOfBoard">Test</p>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="MenuImg" src="comments_26.png" alt="">
+                    <p>4</p>
+                    <img class="personImg" src="avatar_1.png" alt="">                 
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="personImg" src="avatar_3.png" alt="">                
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="MenuImg" src="comments_26.png" alt="">
+                    <p>4</p>
+                    <img class="personImg" src="avatar_1.png" alt="">               
+                </div>
+            </div>
+        </div>
+        <div class="items bl-scroll">
+            <p class="nameOfBoard">Fix</p>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="personImg" src="avatar_2.png" alt="">              
+                </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil cupiditate ipsum nostrum sapiente libero magnam? Praesentium commodi quisquam dicta voluptas beatae provident corrupti officiis exercitationem. Itaque, perferendis labore. Quasi!</p>
+                <div class="info">
+                    <img class="MenuImg" src="justify_26.png" alt="">
+                    <img class="MenuImg" src="checkbox_26.png" alt="">
+                    <p>4/8</p>
+                    <img class="MenuImg" src="attach_26.png" alt="">
+                    <p>2</p>
+                    <img class="MenuImg" src="comments_26.png" alt="">
+                    <p>4</p>
+                    <img class="personImg" src="avatar_2.png" alt="">                  
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
